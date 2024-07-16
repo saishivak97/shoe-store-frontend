@@ -1,0 +1,151 @@
+.shoe-section{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+}
+
+.title{
+    color:#285D5E;
+    font-size:80px;
+    width:500px;
+    margin:20px;
+}
+
+.shoe-container-description{
+    color:#285D5E;
+    font-size:20px;
+    width:500px;
+    margin:20px;
+}
+
+.shop-container-button{
+    background-color:white;
+    border-radius:10px;
+    border:none;
+    width:150px;
+    height:50px;
+    color:#285D5E;
+    font-weight:900;
+    font-size:16px;
+    margin:20px;
+}
+
+.shop-container-transparent-button{
+    background-color:transparent;
+    
+    border-radius:10px;
+    //border:1px solid #285D5E;
+    border:1px solid white;
+    width:150px;
+    height:50px;
+    //color:#285D5E;
+    color:white;
+    font-weight:900;
+    font-size:16px;
+    margin:20px;
+}
+
+.shoe-main-image{
+    margin-left:30px;
+    margin-top:30px;
+    margin-bottom:30px;
+    width:80%;
+    height:100%;
+    border-radius:20px;
+}
+.shoe-list-container{
+    background-color:white;
+    list-style:none;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    margin:50px;
+    border-radius:20px;
+    
+}
+
+.shoe-each-item-1{
+    
+    background:linear-gradient(to right,#D9B584,#73BBA3);
+    margin:10px;
+    border-radius:10px;
+}
+.shoe-each-item-2{
+    
+    background-color:#BB9AB1;
+    margin:10px;
+    border-radius:10px;
+}
+
+.shoe-each-item-3{
+    
+    background-color:#D9B584;
+    margin:10px;
+    border-radius:10px;
+}
+.shoe-each-item-4{
+    
+    background-color:#F4A261;
+    margin:10px;
+    border-radius:10px;
+}
+.shoe-each-item-5{
+    
+    background-color:#FFA38F;
+    margin:10px;
+    border-radius:10px;
+}
+.shoe-each-item-6{
+    
+    background-color:#D9B584;
+    margin:10px;
+    border-radius:10px;
+}
+.shoe-each-item-7{
+    
+    background-color:#D9B584;
+    margin:10px;
+    border-radius:10px;
+}
+.shoe-each-item-8{
+    
+    background-color:#BB9AB1;
+    margin:10px;
+    border-radius:10px;
+}
+.shoe-each-item-9{
+    
+    background-color:#D9B584;
+    margin:10px;
+    border-radius:10px;
+}
+.shoe-each-item-10{
+    
+    background-color:#D9B584;
+    margin:10px;
+    border-radius:10px;
+}
+
+
+.shoe-images{
+    width:200px;
+    height:100px;
+    margin:20px;
+    border-radius:10px;
+    transform: rotate(0deg);
+    background-color:white;
+}
+
+.shoe-price-heading{
+    color:white;
+    padding:10px;
+}
+
+.shoe-price{
+    color:#285D5E;
+    padding:10px;
+    font-weight:900;
+    font-family:"Roboto"
+}
